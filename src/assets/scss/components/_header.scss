@@ -1,0 +1,24 @@
+.header{
+    color:red;
+    height: 53px;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    .logo{
+        background-image:url(/static/images/earth-logo.png);
+        height: 50px;
+        width: 50px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        width: calc( 100% - 50px );
+        .item{
+            margin: 0px 10px;
+            padding:5px;
+        }
+    }
+}
