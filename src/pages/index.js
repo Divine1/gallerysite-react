@@ -18,7 +18,7 @@ const data=[
 
 
 ]
-
+const contextpath="/testbuild";
 class IndexPage extends Component{
 
 
@@ -32,7 +32,7 @@ class IndexPage extends Component{
                         data.map((element,index)=>(
                             <div key={index} className="img" 
                             style={{
-                                backgroundImage: "url("+element.image+")"
+                                backgroundImage: "url("+contextpath+element.image+")"
                             }}>
                             {/* <img src={element.image}></img> */}
                             
